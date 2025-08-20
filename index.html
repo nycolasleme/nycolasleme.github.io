@@ -1,29 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Developer Portfolio</title>
+    <title>Portfólio - Nycolas Leme</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">Sobre Mim</a></li>
                 <li><a href="portfolio.html">Portfólio</a></li>
                 <li><a href="contact.html">Contato</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section id="home">
-            <h1>Bem-vindo ao Meu Portfólio de Desenvolvimento de Software</h1>
-            <p>Sou um estudante de Ciências da Computação, com uma paixão pelo desenvolvimento de software e um foco especial em tecnologias modernas como Docker e automação de testes. Estou sempre em busca de novos desafios e oportunidades para aplicar minhas habilidades e aprender mais.</p>
-            <p>Com conhecimentos em HTML, CSS, JavaScript, Docker, Cypress, GitHub e Git, eu me dedico a criar soluções eficientes e escaláveis. Meu portfólio inclui projetos que demonstram minha capacidade de trabalhar com APIs, automação de testes e desenvolvimento front-end, sempre utilizando boas práticas de desenvolvimento.</p>
+        <!-- Seção de Apresentação -->
+        <section id="home" class="intro">
+            <div class="intro-content">
+                <!-- Troque por sua imagem depois -->
+                <img src="img/profile.jpg" alt="Foto de Nycolas Leme" class="profile-pic">
+                <h1>Olá, eu sou o <span>Nycolas Leme</span> 👋</h1>
+                <p>Tenho 20 anos, sou estudante de <strong>Ciência da Computação</strong> na <strong>Uni Anchieta</strong> e trabalho como <strong>Suporte Técnico</strong>. Sou apaixonado por tecnologia, automação e desenvolvimento de software moderno.</p>
+                <div class="buttons">
+                    <a href="cv.pdf" class="btn" target="_blank"><i class="fa-solid fa-file"></i> Baixar CV</a>
+                    <a href="contact.html" class="btn"><i class="fa-solid fa-envelope"></i> Contato</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre Mim -->
+        <section id="about" class="about">
+            <h2>Sobre Mim</h2>
+            <p>Estou sempre em busca de aprender novas tecnologias e melhorar minhas habilidades em <strong>desenvolvimento de software</strong>. Tenho interesse em <strong>Docker</strong>, <strong>automação de testes</strong>, <strong>front-end</strong> e boas práticas de programação.</p>
+        </section>
+
+        <!-- Seção Habilidades -->
+        <section id="skills" class="skills">
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li><i class="fa-brands fa-html5"></i> HTML</li>
+                <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+                <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                <li><i class="fa-brands fa-docker"></i> Docker</li>
+                <li><i class="fa-solid fa-vial"></i> Cypress</li>
+                <li><i class="fa-brands fa-git-alt"></i> Git/GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Seção Redes Sociais -->
+        <section id="socials" class="socials">
+            <h2>Conecte-se comigo</h2>
+            <div class="social-links">
+                <a href="https://github.com/nycolasleme" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://linkedin.com/in/seuusuario" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            </div>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2025 Nycolas Leme</p>
     </footer>
