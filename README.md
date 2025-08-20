@@ -3,11 +3,8 @@
     <td valign="top" width="50%">
       
 - 👋 Hi, I’m @nycolasleme 
-- 👀 I’m interested in Schedule
-- 🌱 I’m currently learning ...  
-- 💞️ I’m looking to collaborate on ...  
-- 📫 How to reach me ...   
-- ⚡ Fun fact: ...  
+- 👀 I'm interested in back-end programming
+- 🌱 I am currently studying computer science.   
 
     </td>
     <td valign="top" width="50%">
